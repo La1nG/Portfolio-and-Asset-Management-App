@@ -19,7 +19,9 @@ Model Diagnostics and Model Validation: Conducts comprehensive residual analysis
 
 --------------------------------------------------------------------------------------------------------------------------------------
 (WIP) Risk Analysis: VaR, Expected Shortfall, Return Dist Analysis
+
 (WIP) Portfolio Analysis: Portfolio Construction, Portfolio Performance, Asset Correlation, Efficient Frontier, portfolio risk metrics
+
 (WIP) Valuation: Section utilising Discounted Cash Flow, Dividend Discount Model and Multiples/Ratios to evaluate and value stocks
 
 ---------------------------------------------------------------------------------------------------------------------------------------
