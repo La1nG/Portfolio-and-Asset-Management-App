@@ -1,6 +1,6 @@
 -- WIP --
 
-Portfolio and Asset Management App
+# Portfolio and Asset Management App
 
 Key Features
 Multiple Forecasting Models: Implements ARIMA, BSTS and XGBoost for robust predictions
