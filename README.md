@@ -3,26 +3,26 @@
 # Portfolio and Asset Management App
 
 Key Features
-Multiple Forecasting Models: Implements ARIMA, BSTS and XGBoost for robust predictions
+Multiple Forecasting Models: Implements ARIMA and BSTS for robust predictions
 
-Ensemble Methods: Combines model outputs using Simple Average, Weighted Average, Bayesian Model Averaging, and Adaptive Ensemble techniques 
+Ensemble: Uses a weighted averaging method based on error metrics to create a ARIMA-BSTS Ensemble Forecast
+
+Model-Based Uncertainty Quantification
 
 Market Regime Detection: Identifies different market states (Bear, Neutral, Bull), determining probabilities of transitioning regime, average regime return, and duration. 
 
-Alternative Data Integration: Incorporates news sentiment, Macroeconomic indicators and Return correlation with macroeconomic indicators, and Volume Analysis.
+Alternative Data: Incorporates news sentiment, Macroeconomic indicators, and Volume Analysis.
 
 Technical Indicators: Calculates and visualizes a variety of technical indicators, support and resistance levels, and provides a technical summary.
 
-Uncertainty Quantification: Provides confidence intervals using bootstrap and Bayesian methods
-
-Model Diagnostics and Model Validation: Conducts comprehensive residual analysis and statistically validates model quality
+Model Diagnostics: Conducts residual analysis and statistically validates model quality
 
 --------------------------------------------------------------------------------------------------------------------------------------
-(WIP) Risk Analysis: VaR, Expected Shortfall, Return Dist Analysis
+(WIP) Risk Analysis - Greeks, Market Dependencies (Equity, Market, Bond), SSVI Surface
 
-(WIP) Portfolio Analysis: Portfolio Construction, Portfolio Performance, Asset Correlation, Efficient Frontier, portfolio risk metrics
+(WIP) Portfolio Analysis 
 
-(WIP) Valuation: Section utilising Discounted Cash Flow, Dividend Discount Model and Multiples/Ratios to evaluate and value stocks
+(WIP) Valuation
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
