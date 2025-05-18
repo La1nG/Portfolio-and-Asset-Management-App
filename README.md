@@ -32,6 +32,7 @@ Required Packages
 The app requires numerous R packages. The main script includes code to check and install any missing dependencies:
 
 rCopyrequired_packages <- c(
+  
   Core packages
  "shiny", "shinydashboard", "plotly", "forecast", "bsts", "DT", 
   "tidyverse", "lubridate", "quantmod", "Metrics", "bizdays", "TTR", 
