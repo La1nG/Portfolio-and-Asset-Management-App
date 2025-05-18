@@ -28,21 +28,6 @@ Model Diagnostics: Conducts diagnostics to validate model quality
 Prerequisites
 R 4.0.0 or higher RStudio (this is recommended for some packages are built in 4.0.0)
 
-Required Packages
-The app requires numerous R packages. The main script includes code to check and install any missing dependencies:
-
-rCopyrequired_packages <- c(
-  
-  Core packages
- "shiny", "shinydashboard", "plotly", "forecast", "bsts", "DT", 
-  "tidyverse", "lubridate", "quantmod", "Metrics", "bizdays", "TTR", 
-  "zoo", "fredr", "torch", "glmnet", "tseries", "caret", "ggplot2", 
-  
-  Additional packages
-  "depmixS4", "roll", "mvtnorm", "xgboost", "shinyjs", "progressr",
-  "reshape2", "htmlwidgets", "shinyWidgets", "markdown", "scales"
-)
-
 Setup:
 - Clone or download this repository
 - Open the project in RStudio
