@@ -1,5 +1,6 @@
 This document serves as a "handbook" into understanding each function and how it operates, I will also provide an explanation where possible for how the specific feature is overall beneficial to investment management.
 
+------------------------------------------------------------------------
 
 ### Forecasting:
 
