@@ -1,4 +1,5 @@
 -- WIP --
+Expecting it to be published next week
 
 # Portfolio and Asset Management App
 
@@ -11,24 +12,20 @@ Model-Based Uncertainty Quantification
 
 Market Regime Detection: Identifies different market states (Bear, Neutral, Bull), determining probabilities of transitioning regime, average regime return, and duration. 
 
-Alternative Data: Incorporates news sentiment, Macroeconomic indicators, and Volume Analysis.
+Alternative Data: Incorporates news sentiment, Macroeconomic indicators, and (WIP) Volume Analysis.
 
-Technical Indicators: Calculates and visualizes a variety of technical indicators, support and resistance levels, and provides a technical summary.
+Technical Indicators: Calculates and visualizes a variety of technical indicators, support and resistance levels, and provides a (WIP) technical summary.
 
-Model Diagnostics: Conducts residual analysis and statistically validates model quality
+Risk Analysis: (WIP) Greeks, Market Dependencies (Equity, Market, Bond), (WIP) SSVI Surface
 
---------------------------------------------------------------------------------------------------------------------------------------
-(WIP) Risk Analysis - Greeks, Market Dependencies (Equity, Market, Bond), SSVI Surface
+Portfolio Analysis: This tab focuses on Portfolio Performance Metrics (VaR, ES, Maximum Drawdown), Portfolio Correlation, Return Distribution, and Efficient Frontier Optimisation
 
-(WIP) Portfolio Analysis 
+Model Diagnostics: Conducts diagnostics to validate model quality
 
-(WIP) Valuation
-
----------------------------------------------------------------------------------------------------------------------------------------
 
 Installation
 Prerequisites
-R 4.0.0 or higher RStudio (recommended)
+R 4.0.0 or higher RStudio (this is recommended for some packages are built in 4.0.0)
 
 Required Packages
 The app requires numerous R packages. The main script includes code to check and install any missing dependencies:
@@ -68,38 +65,31 @@ Run Forecast:
 Click "Run Forecast" to generate predictions
 
 Review:
-- Click forecasting tab to view forecast predictions and uncertainty intervals
-- View Model diagnostics and Model Validations tabs to analyse the accuracy and viability of the produced forecast/s
+- Click forecasting tab to view forecast predictions
+- View Model diagnostics tab to analyse the accuracy of the produced forecast/s
 
 
 Guide
 
-The app implements several state-of-the-art forecasting models:
+The app implements two forecasting models:
 
-- ARIMA: Autoregressive Integrated Moving Average
+- ARIMA/X: Autoregressive Integrated Moving Average with Inflation, Volatility, Volume, and Seasonality as selectable external variables
 
 - BSTS: Bayesian Structural Time Series
 
-- XGBoost: Gradient boosting for time series
+Ensemble Method:
 
-Ensemble Methods
+- Adaptive Ensemble: Dynamically adjusts weights based on error metrics
 
-Multiple models are combined using various ensemble techniques:
+Uncertainty Quantification: 
 
-- Bayesian Model Averaging: Weights models based on probabilities
+- Model-Based Uncertainty Quantification
 
-- Adaptive Ensemble: Dynamically adjusts weights based on recent performance
+Confidence Level Guide: 
 
-Uncertainty Quantification
-
-The app provides two methods for calculating prediction intervals:
-
-- Bootstrap: Resamples historical data to estimate forecast variability
-
-- Bayesian: Leverages parameter uncertainty for probabilistic intervals
-
-Contributing
-Contributions and suggestions to this App are welcome and appreciated. Please feel free to submit pull requests or open issues to help improve functionality, let me know about bugs, or enhance documentation.
+- 
+-
+-
 
 Disclaimer
 This application is intended for educational and research purposes only. 
