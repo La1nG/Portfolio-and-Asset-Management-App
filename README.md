@@ -22,8 +22,9 @@ Portfolio Analysis: This tab focuses on Portfolio Performance Metrics (VaR, ES, 
 
 Model Diagnostics: Conducts diagnostics to validate model quality
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Installation
+# Installation
 Prerequisites
 R 4.0.0 or higher RStudio (this is recommended for some packages are built in 4.0.0)
 
@@ -47,8 +48,10 @@ Setup:
 - Set Alpha Vantage Key in Helpers.R file (for news retrieval and back up data)
 - Set Financial modelling prep key in helpers.R file (for further financial data)
 - Run the app
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
   
-Usage Guide
+# Usage Guide
 
 Data Selection:
 - Enter a stock symbol (e.g., "AAPL")
@@ -68,8 +71,9 @@ Review:
 - Click forecasting tab to view forecast predictions
 - View Model diagnostics tab to analyse the accuracy of the produced forecast/s
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Guide
+# Guide
 
 The app implements two forecasting models:
 
@@ -85,14 +89,10 @@ Uncertainty Quantification:
 
 - Model-Based Uncertainty Quantification
 
-Confidence Level Guide: 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- 
--
--
-
-Disclaimer
+### Disclaimer
 This application is intended for educational and research purposes only. 
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
