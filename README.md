@@ -1,5 +1,5 @@
 -- WIP --
-Expecting it to be published next week
+Expecting it to be published soon
 
 # Portfolio and Asset Management App
 
